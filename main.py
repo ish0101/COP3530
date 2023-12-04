@@ -5,5 +5,5 @@ def print_hi(name):
 
 if __name__ == '__main__':
     airports = airlines.get_airports()
-    print(airports[0]["Airport"]["Code"])
+    print(airports[0]["Airport"])
 
